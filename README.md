@@ -92,7 +92,7 @@ writer.Update()
 ### The workflow
 
 - The **ConstrucPredictionSphericalMapsFromPCAModel** function creates predicted 2D spherical maps based on age, sex, and std to the average PCA coefficients.
-- The **ConstructCranialSurfaceMeshFromSphericalMaps** function constructs the 3D VTP PolyData of the external cranial surface mesh based ont the 2D speherical maps.
-- The **CreateInternalSurfaceFromExternalSurface** function creates the internal surface mesh based on external surface and the predicted local thicknes.
+- The **ConstructCranialSurfaceMeshFromSphericalMaps** function constructs the 3D VTP PolyData of the external cranial surface mesh based ont the 2D spherical maps.
+- The **CreateInternalSurfaceFromExternalSurface** function creates the internal surface mesh based on external surface and the predicted local thickness.
 
 If you have any questions, please email Jiawei Liu at jiawei.liu@cuanschutz.edu
