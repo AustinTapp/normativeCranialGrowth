@@ -1,0 +1,13 @@
+To get the shape, thickness and intensity models, it is necessary to download them from Git.
+
+
+The file sizes are not very large; however, if Github seems to have an issue when trying:
+
+wget https://github.com/downloads/user/repository/filename
+
+
+
+Instead, go to: https://downgit.github.io/#/home and download by the pasting the corresponding.
+
+
+Alternatively, the models can be found here: https://drive.google.com/drive/folders/19w10t_d_BDZKDIjfx9IXGH-UGNDepWyD?usp=sharing

@@ -90,7 +90,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     functional = args.functional
-    CT = args.imagePath + '/' + 'CTTR.mha'
+    CT = args.imagePath + '/' + 'CTImage.mha'
     set_sex = int(args.sex)
     start_age = float(args.age_start)
     end_age = float(args.age_end)

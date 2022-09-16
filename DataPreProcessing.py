@@ -81,11 +81,11 @@ if __name__ == '__main__':
     parser.add_argument('--imagePath', help='path to patient_specific folder')
 
     args = parser.parse_args()
-    patient_path = '..\\' +  args.imagePath + '\\'
+    patient_path = args.imagePath + '\\'
 
-    ctImage = sitk.ReadImage(patient_path + '109A_Tilt_1_noBed.mha')
-    segmentationImage = sitk.ReadImage(patient_path + '109ASegmentedSubject.nrrd')
-    landmark_mesh = patient_path + '109ALandmarksTemplate.vtp'
+    ctImage = sitk.ReadImage(patient_path + 'CTImage.mha')
+    segmentationImage = sitk.ReadImage(patient_path + 'LabeledCTimage.mha')
+    landmark_mesh = patient_path + 'CTLandmarkPoints.vtp'
 
     Intensity, Thickness, Coord = GenerateSphericalMaps(ctImage, segmentationImage, landmark_mesh)
 
