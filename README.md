@@ -13,6 +13,7 @@ The refenceMetrics contains Excels files that present the model-generated averag
 - [NumPy](https://numpy.org/install/)
 - [SimpleITK](https://simpleitk.org/)
 - [VTK](https://pypi.org/project/vtk/)
+- [scikit-learn](https://scikit-learn.org/stable/install.html)
 
     *Once Python is installed, each of these packages can be downloaded using [Python pip](https://pip.pypa.io/en/stable/installation/)*
 
